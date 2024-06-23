@@ -61,7 +61,7 @@ async function getsongs(folder) {
     })
 
     return songs;
-}
+}   
 
 const playmusic = (track, pause = false) => {
     // let audio = new Audio("/Songs" + track)
